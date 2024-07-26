@@ -3,7 +3,7 @@ import { join } from 'path';
 import axios from 'axios'; 
 
 let handler = async function (m, { conn, __dirname }) {
-  const githubRepoURL = 'https://github.com/Itxxwasi/UNIQUE-MD';
+  const githubRepoURL = 'https://github.com/Prexzybooster/PREXZY-V1-BOT';
 
   try {
   
@@ -16,7 +16,7 @@ let handler = async function (m, { conn, __dirname }) {
 
       // Format the repository information with emojis
       const formattedInfo = `
-╭⊱✫🛡️WASI-MD-REPO-INFO🛡️✫⊱╮
+╭⊱✫🛡️PREXZY-V1-BOT-REPO-INFO🛡️✫⊱╮
 │✫ - *📂Repository Name: ${repoData.name}*
 │✫ - *📃Description: ${repoData.description}*
 │✫ - *🛡️Owner: ${repoData.owner.login}*
