@@ -7,8 +7,8 @@ const { levelling } = '../lib/levelling.js'
 import moment from 'moment-timezone'
 import { promises } from 'fs'
 import { join } from 'path'
-const time = moment.tz('Asia/Karachi').format('HH')
-let wib = moment.tz('Asia/Karachi').format('HH:mm:ss')
+const time = moment.tz('Africa/Lagos').format('HH')
+let wib = moment.tz('Africa/Lagos').format('HH:mm:ss')
 mport db from '../lib/database.js'
 
 let handler = async (m, { conn, usedPrefix, command}) => {
@@ -40,8 +40,8 @@ let str = ` *${botname}*
 
 
 ╭━⊱「𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 *${botname}*
-┃🚩𝐃𝐄𝐀𝐑 𝐔𝐒𝐄𝐑 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐃𝐎𝐍-𝐃𝐄𝐕𝐈𝐋 𝐌𝐃 
-┃𝐀 𝐒𝐈𝐌𝐏𝐋𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓 𝐁𝐔𝐈𝐋𝐃 𝐁𝐘 𝐖𝐀𝐒𝐈 𝐓𝐄𝐂𝐇
+┃🚩𝐃𝐄𝐀𝐑 𝐔𝐒𝐄𝐑 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 PREXZY V1 BOT 
+┃𝐀 𝐒𝐈𝐌𝐏𝐋𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓 𝐁𝐔𝐈𝐋𝐃 𝐁𝐘 PREXZYVILLA
 ┃
 ┃ *${usedPrefix}ᴍᴇɴᴜ2 ғᴏʀ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛ*
 ┃ *${usedPrefix}ᴍᴇɴᴜ3 ғᴏʀ sᴘᴇᴄɪᴀʟ ᴍᴇɴᴜ ʟɪsᴛ*
@@ -90,7 +90,7 @@ let str = ` *${botname}*
 │◈   .ᴅᴇᴍᴏᴛᴇ (@ᴛᴀɢ)
 │◈   .ɪɴғᴏɢᴘ
 │◈   .ʜɪᴅᴇᴛᴀɢ
-│◈   .ɪɴᴠɪᴛᴇ <923xxx>
+│◈   .ɪɴᴠɪᴛᴇ <234xxx>
 │◈   .ᴋɪᴄᴋ @ᴜsᴇʀ
 │◈   .ʟɪɴᴋ
 │◈   .ᴘᴏʟʟ ϙᴜᴇsᴛɪᴏɴ|ᴏᴘᴛɪᴏɴ|ᴏᴘᴛɪᴏɴ
@@ -410,7 +410,7 @@ let str = ` *${botname}*
 │◈
 │◈
 ╰━━━━━━━━━━━━━━━━━╯
-📚 *_Quote BY WASI: ${quote}_* 📚
+📚 *_Quote BY PREXZYVILLA: ${quote}_* 📚
 ${readMore}
 
 `
@@ -432,7 +432,7 @@ function clockString(ms) {
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
     
     function ucapan() {
-      const time = moment.tz('Asia/Karachi').format('HH')
+      const time = moment.tz('Africa/Lagos').format('HH')
       let res = "happy early in the day☀️"
       if (time >= 4) {
         res = "Good Morning 🌄"
