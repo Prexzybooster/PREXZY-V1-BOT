@@ -2,13 +2,13 @@ import { exec } from 'child_process'
 import speed from 'performance-now'
 
 let handler = async (m, { conn }) => {
-  let thumbnail = 'https://i.imgur.com/GyAXW62.jpeg'
+  let thumbnail = 'https://telegra.ph/file/57601a5936217be8cb54b.jpg'
   let fgg = {
     key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' },
     message: {
       contactMessage: {
-        displayName: `UNIQUE-MD`,
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'UNIQUE-MD'\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+        displayName: `PREXZY-V1-BOT`,
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'PREXZY-V1-BOT'\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
       },
     },
   }
