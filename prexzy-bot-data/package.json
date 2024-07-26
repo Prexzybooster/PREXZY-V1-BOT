@@ -17,7 +17,7 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/PRINCE-GDS/MR-PRINCE-BOT",
+"homepage": "https://github.com/PREXZYBOOSTER/PREXZY-V1-BOT",
 "author": {
 "name": "PREXZY" },
     
