@@ -2,10 +2,10 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
 
     // Sound
     let name = m.pushName || conn.getName(m.sender)
-    var vn = "https://github.com/Itxxwasi/WASI-MD/raw/main/Assets/mp3/alive.mp3"
-    let url = "https://github.com/Itxxwasi/WASI-MD"
-    let murl = "https://youtube.com/@wasitech1"
-    let img = "https://telegra.ph/file/e4e5a6722c1d5bf8ba1a5.jpg"
+    var vn = "https://github.com/Prexzybooster/PREXZY-V1-BOT/raw/main/Assets/mp3/alive.mp3"
+    let url = "https://github.com/Prexzybooster/PREXZY-V1-BOT"
+    let murl = "https://youtube.com/@prexzyvilla"
+    let img = "https://telegra.ph/file/57601a5936217be8cb54b.jpg"
     let con = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     let doc = {
         audio: {
