@@ -1,0 +1,89 @@
+{
+  "name": "PREXZY-V1-BOT",
+  "description": "PREXZY A WhatsApp User BOT",
+  "logo": "https://telegra.ph/file/c3367b00001035677cc6b.jpg",
+  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
+  "repository": "https://github.com/PREXZYBOOSTER/PREXZY-V1-BOT",
+  
+  "stack": "container",
+  "env": {
+      "OWNERS": {
+      "description": "Put your Number as Owner",
+      "required": true,
+      "value": "2349159895444;Precious"
+
+     },
+      "DATABASE_URL": {
+      "description": "your mongodb database url",
+      "required": false,
+      "value": ""
+      },
+     "MODE": {
+      "description": "mode public or private",
+      "required": true,
+      "value": "private"
+       },
+     "HKEY": {
+      "description": "Put your Heroku API key Here",
+      "required": true,
+      "value": ""
+    },
+     "HAPP": {
+      "description": "Put the Heroku app name, same as above entered",
+      "required": true,
+      "value": ""
+       },
+    "PREFIX": {
+      "description": "Put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
+      "required": false,
+      "value": ""
+     },
+    "antidelete": {
+      "description": "BOT will forward deleted messages if you make it true",
+      "required": false,
+      "value": "false"
+       },
+    "BOT_NAME": {
+      "description": "Put your BOT a name",
+      "required": true,
+      "value": "PREXZY-V1-ʙᴏᴛ"
+      },
+    "DL_MSG": {
+      "description": "Video downloader caption",
+      "required": true,
+      "value": "💌--------------------ᴘʀEXZY-V1----------------------💌"
+       },
+    "STATUSVIEW": {
+      "description": "Make it true if you want bot to view status",
+      "required": true,
+      "value": "false"
+    },
+    "AutoReaction": {
+      "description": "Make it true if you want bot to react on chats",
+      "required": false,
+      "value": "false"
+    },
+    "SESSION_ID": {
+      "description": "put your session ID here in the box below",
+      "required": true,
+      "value": ""
+    }
+    
+   
+  },
+    
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
