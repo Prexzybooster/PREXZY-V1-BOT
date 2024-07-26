@@ -23,7 +23,7 @@ import {
   ⛥ *Mode:* %mode
   ⛥ *Platform:* %platform
   ⛥ *Type:* NodeJs
-  ⛥ *Baileys:* DON-DEVIL
+  ⛥ *Baileys:* PREXZYVILLA
   ⛥ *Prefix:* [ *%_p* ]
   ⛥ *Uptime:* %muptime
   ⛥ *Database:*  %totalreg
