@@ -46,25 +46,25 @@ let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './Assets/wasi.pn
 let user = global.db.data.users[who]
   
 let infobt = `
-≡ *BOT DEVELOPER WASI SER INTRO* \n
+≡ *BOT DEVELOPER PRECIOUS AYOMIDE INTRO* \n
 ╭═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄
-│       「 𝐖𝐀𝐒𝐈 𝐓𝐄𝐂𝐇 𝐈𝐍𝐓𝐑𝐎  」
-│ Name      : 𝐖𝐀𝐒𝐈 
-│ Place       : 𝐈𝐒𝐋𝐀𝐌𝐀𝐁𝐀𝐃, 𝐏𝐀𝐊𝐈𝐒𝐓𝐀𝐍
+│       「 PRECIOUS AYOMIDE 𝐈𝐍𝐓𝐑𝐎  」
+│ Name      : PRECIOUS AYOMIDE 
+│ Place       : OSOGBO, NIGERIA
 │ Gender    :  𝐌𝐀𝐋𝐄
-│ Age          : 20
-│ education : 𝐁𝐒 𝐒𝐄 
-│ good vibes : 𝐒𝐓𝐀𝐘 𝐂𝐋𝐀𝐌
-│ Phone     : wa.me/923135673658
-│ Youtube   : youtube.com/@wasitech1
-│                 WASI TECH CHANNLE LINK_\n
-│▢ Follow the 𝗪𝗔𝗦𝗜___𝗧𝗘𝗖𝗛 channel on WhatsApp: https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
+│ Age          : 18
+│ education :  EDUCATED
+│ good vibes : 𝐒𝐓𝐀𝐘 𝐂AL𝐌
+│ Phone     : wa.me/2349159895444
+│ Youtube   : youtube.com/@Prexzyvilla
+│                 PREXZYVILLA CHANNEL LINK_\n
+│▢ Follow the PREXZYVILLA channel on WhatsApp: https://whatsapp.com/channel/0029VaaUfPO8qIzztuf42D04
 │                    *≡ INSTAGRAM;\n
-│              ▢ Follow the 𝗪𝗔𝗦𝗜___𝗧𝗘𝗖𝗛 instagram : https://INSTAGRAM.com/itx_mee_wasi
+│              ▢ Follow the 𝗪𝗔𝗦𝗜___𝗧𝗘𝗖𝗛 instagram : https://INSTAGRAM.com/prexzy.ay
 │                   *≡ GITHUB;\n
-│               ▢ Follow the 𝗪𝗔𝗦𝗜___𝗧𝗘𝗖𝗛 on github : https://github.com/Itxxwasi
+│               ▢ Follow the 𝗪𝗔𝗦𝗜___𝗧𝗘𝗖𝗛 on github : https://github.com/prexzybooster
 │                     *≡ TELEGRAM;\n
-│             ▢ Follow the 𝗪𝗔𝗦𝗜___𝗧𝗘𝗖𝗛 on telegram : t.me/wasitechx
+│             ▢ Follow the 𝗪𝗔𝗦𝗜___𝗧𝗘𝗖𝗛 on telegram : t.me/prexzy_ay
 │ 
 ╰═══ ━ ━ ━ ━ • ━ ━ ━ ━ ━ ━ ━ • ━ ━ ━━ ━ ━ ━ • ━ ━ ━━ ━ ━ ━ • 
 
